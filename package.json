@@ -1,0 +1,53 @@
+{
+  "name": "everfall-sandbox-marxs-test",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@emotion/react": "11.10.5",
+    "@fortawesome/fontawesome-svg-core": "6.2.1",
+    "@fortawesome/free-solid-svg-icons": "6.2.1",
+    "@fortawesome/react-fontawesome": "0.2.0",
+    "@mantine/core": "5.10.2",
+    "@mantine/dates": "5.10.2",
+    "@mantine/dropzone": "5.10.2",
+    "@mantine/ds": "5.10.3",
+    "@mantine/form": "5.10.2",
+    "@mantine/hooks": "5.10.2",
+    "@mantine/modals": "5.10.2",
+    "@mantine/prism": "5.10.3",
+    "@mantine/tiptap": "5.10.2",
+    "@tabler/icons": "2.1.2",
+    "@tiptap/extension-link": "2.0.0-beta.209",
+    "@tiptap/react": "2.0.0-beta.209",
+    "@tiptap/starter-kit": "2.0.0-beta.209",
+    "circular-json": "0.5.9",
+    "dayjs": "1.11.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-dom-server": "0.0.5",
+    "react-hot-toast": "2.4.0",
+    "react-router": "6.8.0",
+    "react-router-dom": "6.8.0",
+    "react-scripts": "4.0.3",
+    "tabler-icons-react": "1.56.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.9",
+    "typescript": "4.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
