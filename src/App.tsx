@@ -1,44 +1,29 @@
-import { MantineProvider } from "@mantine/core";
 import { useState } from "react";
-import StaffChat from "./StaffChat";
-import Dashboard from "./Dashboard";
-import Players from "./Players";
+import StaffChat from "./lib/StaffChat";
+import Dashboard from "./lib/Dashboard";
+import Players from "./lib/Players";
 import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
-import CircularJSON from "circular-json";
 import {
   AppShell,
   Navbar,
   Header,
-  Footer,
-  Aside,
-  MediaQuery,
-  Burger,
-  Table,
-  Skeleton,
-  useMantineTheme
-} from "@mantine/core";
-import { ActionIcon } from "@mantine/core";
-import { Card, Image, Text, Badge, Button } from "@mantine/core";
-import { Indicator, Avatar, Group } from "@mantine/core";
-import { IconDatabase } from "@tabler/icons";
-import { IconExternalLink } from "@tabler/icons";
-import { Box, NavLink } from "@mantine/core";
-import {
-  IconGauge,
-  IconFingerprint,
-  IconActivity,
-  IconChevronRight
-} from "@tabler/icons";
+  MantineProvider,
+  Image,
+  Text,
+  Box,
+  NavLink,
+  Divider
+  } from "@mantine/core";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fas } from "@fortawesome/free-solid-svg-icons";
-import { Divider } from "@mantine/core";
 
 import {
   IconLookup,
   IconDefinition,
   findIconDefinition
 } from "@fortawesome/fontawesome-svg-core";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const coffeeLookup: IconLookup = { prefix: "fas", iconName: "coffee" };
 const coffeeIconDefinition: IconDefinition = findIconDefinition(coffeeLookup);
